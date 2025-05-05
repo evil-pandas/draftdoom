@@ -1,14 +1,18 @@
----
-title: Draftdoom
-emoji: 📊
-colorFrom: pink
-colorTo: yellow
-sdk: gradio
-sdk_version: 5.25.2
-app_file: app.py
-pinned: false
-license: apache-2.0
-short_description: Decision support tool for DOTA2 drafts. Not a crystal ball.
+# DraftDoom
+
+A rapid MVP for Dota 2 draft prediction—built solo in less than 12 hours using XGBoost and SHAP, achieving 59% accuracy. Includes data pruning, explainability, and a live Gradio demo.
+
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Live Demo
+Experience DraftDoom without installing anything:
+
+▶️ https://huggingface.co/spaces/evilpandas/draftdoom
+
+---
+
+## About This Project
+DraftDoom was created after 12 weeks of AI classes and zero prior coding experience. It shows how a fast, nearly-right tool can deliver value quickly, with clear insights and minimal cost.
+
+---
+
